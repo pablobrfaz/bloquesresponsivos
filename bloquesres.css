@@ -1,0 +1,89 @@
+.paginacom{
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    padding: 5px;
+}
+
+.box1{
+    height: 100px;
+    width: 600px;
+    background-color: green;
+    display: inline-block;
+}
+
+
+
+.box3{
+    background-color: red;
+    display: inline-block;
+    height: 300px;
+    width: 428px;
+    position: relative;
+    left: 171px;
+}
+
+.box4{
+    height: 100px;
+    width: 100px;
+    padding: 14px;
+    border: 5px red solid;
+    background-color: yellow;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.box5{
+    height: 100px;
+    width: 390px;
+    padding: 14px;
+    background-color: violet;
+    border: 5px red solid;
+}
+
+
+
+
+
+@media only screen and (max-width: 480px){
+    .sm-4 {
+        width: 25%;
+        height: 100px;
+        width: 600px;
+        background-color: green;
+        display: inline-block;
+
+    }
+     .sm-0{
+         display: none;
+     }
+}
+
+@media only screen and (min-width: 481px){
+    .med-2 {
+        /* anything with the class .med-1 will get 25% of the available width if the screen's width is greater than 480px */
+        width: 50%;
+
+        height: 100px;
+        width: 600px;
+        background-color: green;
+        display: inline-block;
+    }
+}
+
+
+@media only screen and (min-width: 481px){
+    .lg-1 {
+        /* anything with the class .med-1 will get 25% of the available width if the screen's width is greater than 480px */
+        width: 25%;
+        
+        height: 200px;
+    width: 160px;
+    background-color: blue;
+    display: inline-block;
+    vertical-align: top;
+    }
+    .lg-3{
+        width: 75%;
+    }
+}
